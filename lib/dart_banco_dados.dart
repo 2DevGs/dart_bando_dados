@@ -1,5 +1,5 @@
-import 'package:dart_bando_dados/database.dart';
 import 'package:mysql1/mysql1.dart';
+import 'database.dart';
 
 Future<void> main() async {
 

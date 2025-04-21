@@ -6,8 +6,8 @@ class Database {
     final settings = ConnectionSettings(
       host: 'localhost',
       port: 3306,
-      user: 'root',
-      password: 'academiadoflutter',
+      user: 'USER',
+      password: 'PASSWORD',
       db: 'dart_mysql'
     );
     return MySqlConnection.connect(settings);
